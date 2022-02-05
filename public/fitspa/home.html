@@ -1,0 +1,866 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Bizwa</title>
+    <!-- REVOLUTION STYLE SHEETS -->
+    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/css/all.min.css">
+    <link rel="stylesheet" href="css/cubeportfolio.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
+
+<!--Preloader-->
+<div class="loader" id="loader-fade">
+   <div class="loading-wrapper">
+      <div class="loading"></div>
+   </div>
+</div>
+
+<!--End Preloader-->
+
+<!--Header Section-->
+
+
+<header>
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-top-default bg-transparent navbar-default navbar-fixed-top nav-padding20 nav-icon black-bg fixed-black">
+        <div class="container">
+            <a href="#." title="Logo" class="logo scroll"><img src="images/logo.png" class="logo-dark" alt="logo">
+                <img src="images/logo.png" alt="logo" class="logo-light default">
+            </a>
+
+            <div class="side-nav-btn hidden-lg" id="sidemenu_toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+       <!--Nav Links-->
+            <div class="collapse navbar-collapse" id="bizwa">
+                <ul class="navbar-nav ml-auto nav-color">
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#home">Home</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link  dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">Dropdown</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                      </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#price">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#client">Client</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="md-pl-0 pl-3 d-none d-lg-inline-block header-social">
+                <a class="facebook-hover-effect" href="javascript:void(0)"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                <a class="twitter-hover-effect" href="javascript:void(0)"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                <a class="instagram-hover-effect" href="javascript:void(0)"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </div><!--end container-->
+    </nav>
+
+    <!-- side menu -->
+    <div class="side-menu">
+        <div class="inner-wrapper">
+            <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+            <nav class="side-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#price">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#client">Client</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <div class="side-footer text-white w-100">
+                <ul class="social-icons-simple">
+                    <li><a href="#." class="facebook-text-hvr"><i class="fab fa-facebook" aria-hidden="true"></i></a> </li>
+                    <li><a href="#." class="twitter-text-hvr"><i class="fab fa-twitter" aria-hidden="true"></i></a> </li>
+                    <li><a href="#." class="linkedin-text-hvr"><i class="fab fa-linkedin" aria-hidden="true"></i></a> </li>
+                    <li><a href="#." class="google-text-hvr"><i class="fab fa-google-plus" aria-hidden="true"></i></a> </li>
+                </ul>
+                <p class="whitecolor">&copy; 2019 Bizwa. Made With Love by Themesindustry</p>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- End side menu -->
+
+</header>
+<!--End Header Section-->
+
+<!--rev slider-->
+<section id="home" class="p-0">
+    <h2 class="d-none">hidden</h2>
+    <div id="rev_slider_19_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="wexim_slider_01" data-source="gallery" style="background:transparent;padding:0px;">
+        <!-- START REVOLUTION SLIDER 5.4.8.1 fullscreen mode -->
+        <div id="rev_slider_19_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.8.1">
+            <ul>
+                <!-- SLIDE  -->
+                <li data-index="rs-1" data-transition="crossfade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/slide-img1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <!-- MAIN IMAGE -->
+                    <img src="images/banner1.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption   tp-resizeme"
+                         id="slide-91-layer-1"
+                         data-x="['left','left','center','center']" data-hoffset="['0','50','0','0']"
+                         data-y="['top','top','middle','middle']" data-voffset="['309','262','-106','-110']"
+                         data-fontsize="['16','16','16','14']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":200,"speed":900,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 5; white-space: nowrap; font-size: 16px; line-height: 20px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;">Lorem ipsum dolor sit amet purus.  </div>
+
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption   tp-resizeme"
+                         id="slide-91-layer-2"
+                         data-x="['left','left','center','center']" data-hoffset="['0','50','0','0']"
+                         data-y="['top','top','top','top']" data-voffset="['357','309','404','266']"
+                         data-fontsize="['50','50','40','30']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":720,"split":"chars","splitdelay":0.1,"speed":900,"split_direction":"forward","frame":"0","from":"sX:0.8;sY:0.8;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 6; white-space: nowrap; font-size: 50px; line-height: 50px; font-weight: 700; color: #ffffff; letter-spacing: 0px;font-family:Raleway, sans-serif; text-transform: capitalize">Business Agency </div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption   tp-resizeme"
+                         id="slide-91-layer-3"
+                         data-x="['left','left','center','center']" data-hoffset="['0','50','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['10','10','0','-30']"
+                         data-fontsize="['50','50','40','30']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":1290,"speed":900,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 7; white-space: nowrap; font-size: 40px; line-height: 60px; font-weight: 200; color: #ffffff; letter-spacing: 0px;font-family:Raleway, sans-serif;">Located in NewYork USA. </div>
+
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption   tp-resizeme"
+                         id="slide-91-layer-4"
+                         data-x="['left','left','center','center']" data-hoffset="['0','50','1','-1']"
+                         data-y="['top','top','middle','middle']" data-voffset="['484','447','71','29']"
+                         data-fontsize="['16','16','16','14']"
+                         data-lineheight="['22','22','22','18']"
+                         data-width="['601','530','601','450']"
+                         data-height="none"
+                         data-whitespace="normal"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":1680,"speed":900,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 8; min-width: 601px; max-width: 601px; white-space: normal; font-size: 16px; line-height: 22px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum commodo, sem magna. </div>
+
+                    <!-- LAYER NR. 12 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['left','left','center','center']" data-hoffset="['0','50','0','0']"
+                         data-y="['top','top','middle','middle']" data-voffset="['586','560','164','110']"
+                         data-width="['601','530','601','450']"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":2150,"speed":900,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 9; letter-spacing: .5px;"><a class="white clr-g hvr-shutter-out-horizontal-blk btn btn-large btn-rounded scroll" href="#about">Learn More</a></div>
+
+                    <!-- LAYER NR. 6 -->
+                    <div class="tp-caption d-none d-lg-block tp-resizeme rs-parallaxlevel-1"
+                         id="slide-91-layer-7"
+                         data-x="['right','right','right','right']" data-hoffset="['0','-50','-749','-885']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['0','0','-9','-27']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="normal"
+
+                         data-type="image"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":1810,"speed":900,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 10;">
+                        <div class="rs-looped rs-wave"  data-speed="10" data-angle="0" data-radius="5px" data-origin="50% 50%"><img src="images/object1.png" alt="" data-ww="['576px','530px','462px','462px']" data-hh="['566px','530px','454px','454px']" data-no-retina> </div></div>
+
+                    <!-- LAYER NR. 7 -->
+                    <div class="tp-caption d-none d-lg-block tp-resizeme rs-parallaxlevel-2"
+                         id="slide-91-layer-8"
+                         data-x="['right','right','right','right']" data-hoffset="['10','-60','-701','-837']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['70','70','20','2']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="normal"
+
+                         data-type="image"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":2330,"speed":900,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 11;">
+
+                        <div class="rs-looped rs-wave"  data-speed="20" data-angle="0" data-radius="8px" data-origin="50% 50%">
+                            <svg width="500" height="495">
+                                <g>
+                                    <clipPath id="clipPolygon">
+                                        <polygon points="186 13,164 17,150 19,118 27,92 36,78 44,59 57,39 78,26 98,18 118,14 133,12 143,9 159,9 174,12 191,15 207,18 219,22 231,28 244,38 267,50 290,65 313,82 337,97 356,109 369,126 385,138 397,156 411,176 422,192 427,211 431,226 433,244 431,258 428,272 423,286 417,298 409,315 397,336 374,349 357,363 335,380 306,394 277,405 250,414 224,423 196,427 178,429 162,429 140,426 122,420 100,413 86,404 72,391 57,373 42,355 32,333 24,307 18,278 13,249 11,207 11,182 14">
+                                        </polygon>
+                                    </clipPath>
+                                </g>
+                                <image clip-path="url(#clipPolygon)" height="100%" width="100%" xlink:href="images/svg-image1.jpg" />
+                            </svg>
+                        </div>
+
+                    </div>
+                </li>
+
+                <!-- SLIDE  -->
+                <li data-index="rs-2" data-transition="crossfade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/slide-img2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+
+                    <!-- MAIN IMAGE -->
+                    <img src="images/banner3.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+
+                    <!-- Overlay -->
+                    <div class="gradient-bg1 bg-overlay opacity-8 z-index-1"></div>
+
+                    <!-- LAYER NR. 8 -->
+                    <div class="tp-caption   tp-resizeme"
+                         id="slide-92-layer-1"
+                         data-x="['center','center','center','center']" data-hoffset="['-5','-5','-5','-5']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['-77','-77','-77','-90']"
+                         data-fontsize="['30','30','25','20']"
+                         data-fontweight="['600','600','600','500']"
+                         data-letterspacing="['4','0','0','2']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":240,"speed":900,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 5; white-space: nowrap; font-size: 30px; line-height: 35px; font-weight: 600; color: #ffffff; letter-spacing: 0px;font-family:Raleway, sans-serif; text-transform: capitalize">Creative Onepage </div>
+
+                    <!-- LAYER NR. 9 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','3']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['0','7','7','-38']"
+                         data-fontsize="['80','70','60','40']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":950,"speed":2000,"sfxcolor":"#ffffff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['inherit','inherit','inherit','inherit']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 6; white-space: nowrap; font-size: 70px; line-height: 80px; font-weight: 600; color: #ffffff; letter-spacing: 4px;font-family:Raleway, sans-serif; text-transform: capitalize">Business Agency </div>
+
+                    <!-- LAYER NR. 10 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['center','center','center','center']" data-hoffset="['1','1','0','4']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['81','81','83','12']"
+                         data-fontsize="['18','18','16','14']"
+                         data-width="500"
+                         data-height="none"
+                         data-whitespace="normal"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":1670,"speed":900,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['center','center','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 7; min-width: 500px; max-width: 500px; white-space: normal; font-size: 18px; line-height: 22px; font-weight: 300; color: #ffffff; letter-spacing: 1px;font-family:Roboto;">Curabitur mollis bibendum luctus. Duis suscipit </div>
+
+                    <!-- LAYER NR. 11 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['170','170','170','80']"
+                         data-fontsize="['20','20','16','16']"
+                         data-width="['601','530','601','450']"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":2300,"speed":900,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['center','center','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 9; letter-spacing: .5px;"><a class="white clr-b hvr-shutter-out-horizontal-blk btn btn-large btn-rounded scroll" href="#about">Learn More</a></div>
+
+                </li>
+
+                <!-- SLIDE  -->
+                <li data-index="rs-3" data-transition="crossfade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/slide-img2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+
+                    <!-- MAIN IMAGE -->
+                    <img src="images/banner2.jpg" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                    <!-- LAYERS -->
+
+                    <!-- Overlay -->
+                    <div class="gradient-bg1 bg-overlay opacity-8 z-index-1"></div>
+
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['right','right','center','center']" data-hoffset="['0','50','0','0']"
+                         data-y="['top','top','middle','middle']" data-voffset="['309','262','-106','-110']"
+                         data-fontsize="['16','16','16','14']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":200,"speed":900,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['right','right','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 5; white-space: nowrap; font-size: 16px; line-height: 20px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;">Lorem ipsum dolor sit amet purus.  </div>
+
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['right','right','center','center']" data-hoffset="['0','50','0','0']"
+                         data-y="['top','top','top','top']" data-voffset="['357','309','404','266']"
+                         data-fontsize="['50','50','40','30']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":720,"split":"chars","splitdelay":0.1,"speed":900,"split_direction":"forward","frame":"0","from":"sX:0.8;sY:0.8;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['right','right','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 6; white-space: nowrap; font-size: 40px; line-height: 50px; font-weight: 500; color: #ffffff; letter-spacing: 0px;font-family:Raleway, sans-serif">Business Agency </div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['right','right','center','center']" data-hoffset="['0','50','0','0']"
+                         data-y="['middle','middle','middle','middle']" data-voffset="['10','12','0','-30']"
+                         data-fontsize="['50','50','40','30']"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":1290,"speed":900,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['right','right','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 7; white-space: nowrap; font-size: 40px; line-height: 50px; font-weight: 200; color: #ffffff; letter-spacing: 0px;font-family:Raleway, sans-serif;">Locatecd in NewYork USA </div>
+
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['right','right','center','center']" data-hoffset="['0','50','1','-1']"
+                         data-y="['top','top','middle','middle']" data-voffset="['484','447','71','29']"
+                         data-fontsize="['16','16','16','14']"
+                         data-lineheight="['22','22','22','18']"
+                         data-width="['601','530','601','450']"
+                         data-height="none"
+                         data-whitespace="normal"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":1680,"speed":900,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['right','right','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 8; min-width: 601px; max-width: 601px; white-space: normal; font-size: 16px; line-height: 22px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum commodo, sem magna. </div>
+
+                    <!-- LAYER NR. 12 -->
+                    <div class="tp-caption   tp-resizeme"
+                         data-x="['right','right','center','center']" data-hoffset="['0','50','0','0']"
+                         data-y="['top','top','middle','middle']" data-voffset="['586','560','164','110']"
+                         data-width="['601','530','601','450']"
+                         data-height="none"
+                         data-whitespace="nowrap"
+
+                         data-type="text"
+                         data-responsive_offset="on"
+
+                         data-frames='[{"delay":2150,"speed":900,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":900,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-textAlign="['right','right','center','center']"
+                         data-paddingtop="[0,0,0,0]"
+                         data-paddingright="[0,0,0,0]"
+                         data-paddingbottom="[0,0,0,0]"
+                         data-paddingleft="[0,0,0,0]"
+
+                         style="z-index: 9; letter-spacing: .5px;"><a class="white clr-b hvr-shutter-out-horizontal-blk btn btn-large btn-rounded scroll" href="#about">Learn More</a></div>
+
+
+                </li>
+                
+
+
+            </ul>
+        </div>
+        <!-- END REVOLUTION SLIDER -->
+    </div>
+
+</section>
+<!--rev slider end-->
+
+<!--about section-->
+<section class="about" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pr-5 wow fadeInLeft">
+                <div class="rare-box"></div>
+                <img src="images/about.jpg" class="image-about position-relative w-100" alt="">
+            </div>
+            <div class="col-lg-6 pl-6 center-about">
+                <h5 class="pb-3 sm-pt-3 wow fadeInUp" data-wow-delay="300ms">Lorem ipsum dolor sit amet consectetur</h5>
+                <h2 class="wow fadeInUp" data-wow-delay="400ms">We are <span class="green">making business</span> better for everyone</h2>
+                <p class="pt-3 wow fadeInUp" data-wow-delay="500ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue diam, accumsan vitae justo non, euismod aliquam lectus.
+                    Etiam elementum tortor quis risus posuere, in cursus arcu lobortis.</p>
+                <ul class="pl-0 pt-3 left-about wow fadeInUp" data-wow-delay="600ms">
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Morbi ornare nibh id cursus vestibulum.</li>
+                    <li>Duis vitae lectus facilisis, tristique lorem sit amet, malesuada diam.</li>
+                </ul>
+                <a class="white clr-b hvr-shutter-out-horizontal-blk btn btn-large btn-rounded btn btn-medium btn-white-blue mt-20 text-capitalize" href="javascript:void(0);">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--about section end-->
+
+<!--Counter start-->
+<section class="counter">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 wow fadeInLeft">
+                <h3>Our many years of experience in numbers</h3>
+                <span class="hr-line"></span>
+                <p class="pt-3 pb-3">We show you our professional achievements in numbers, which show the acquired skills and trust of many clients.</p>
+            </div>
+            <div class="col-md-7 text-center wow fadeInRight">
+                <div class="row">
+                    <div class="col-md-4 icon-block">
+                        <div class="icon">
+                            <i class="fab fa-handshake-o blue"></i>
+                        </div>
+                        <div class="counters mt-4">
+                            <h3><span class="count_nums" data-to="2500" data-speed="2500">2500</span><i class="fab fa-plus"></i></h3>
+                        </div>
+                        <p class="num-counts mb-4 mt-10">Satisfied customers</p>
+                    </div>
+                    <div class="col-md-4 icon-block two">
+                        <div class="icon">
+                            <i class="fab fa-check-square-o green"></i>
+                        </div>
+                        <div class="counters mt-4">
+                            <h3><span class="count_nums" data-to="9500" data-speed="2500">9500</span><i class="fab fa-plus"></i></h3>
+                        </div>
+                        <p class="num-counts mb-4 mt-10">Completed consultations</p>
+                    </div>
+                    <div class="col-md-4 icon-block">
+                        <div class="icon">
+                            <i class="fab fa-television blue"></i>
+                        </div>
+                        <div class="counters mt-4">
+                            <h3><span class="count_nums" data-to="6000" data-speed="2500">6000</span><i class="fab fa-plus"></i></h3>
+                        </div>
+                        <p class="num-counts mt-10">Carried out training</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Counter end-->
+
+
+<!--video section-->
+<section class="half-section p-0">
+    <h2 class="d-none">heading</h2>
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-6 col-sm-12 bg-yellow p-0 equalheight col-video">
+                <div class="video-content-setting center-block text-left text-xs-center equalheight half-center">
+                    <h2 class="color-black font-weight-500 text-capitalize mb-2rem mb-xxs-3 text-white">a creative design agency in east london.</h2>
+                    <p class="color-black text-white">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin.
+                    </p>
+                </div>
+                <a data-fancybox="" href="https://www.youtube.com/watch?v=7e90gBu4pas" class="video-play-button position-absolute">
+                    <i class="fab fa-play"></i>
+                </a>
+            </div>
+            <div class="col-md-6 col-sm-12 p-0 equalheight col-video video-bg">
+                <div class="video-image split-blog-scale">
+                    <img alt="stats" src="images/video-bg.jpg" class="equalheight video-img-setting">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end video section-->
+
+<!--Pricing Start-->
+<section id="price" class="price-sec">
+    <div class="container">
+        <!--Heading-->
+        <div class="row">
+            <div class="col-md-12 text-center wow fadeIn">
+                <div class="title d-inline-block">
+                    <h5 class="mb-3 blue mb-20">Most economical pricing</h5>
+                    <h2 class="gradient-text1 mb-3 mb-20 text-capitalize">Flexible Pricing</h2>
+                    <p class="margin-30 text-width">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. </p>
+                </div>
+            </div>
+        </div>
+
+        <!--Team-->
+        <div class="row">
+            <div id="price-slider" class="owl-carousel owl-item wow fadeInUp">
+
+                <div class="price-item item text-left">
+                    <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4 blue">Basic</h4>
+                    <div class="price-tag d-flex align-items-center">
+                        <div class="price alt-font text-dark-gray">
+                            <h3 class="currency"><span class="sign">$</span>29</h3>
+                            <span class="month text-capitalize">MONTH</span>
+                        </div>
+                        <p class="price-text no-margin">It has survived not only five centu but also the leap electronic.</p>
+                    </div>
+                    <ul class="packages">
+                        <li><i class="fab fa-check" aria-hidden="true"></i>Full access</li>
+                        <li><i class="fab fa-check text-capitalize" aria-hidden="true"></i>Unlimited Bandwidth</li>
+                        <li><i class="fab fa-check text-capitalize" aria-hidden="true"></i>Powerful Admin Panel</li>
+                        <li><i class="fab fa-check text-capitalize" aria-hidden="true"></i>Email Accounts</li>
+                        <li><i class="fab fa-check text-capitalize" aria-hidden="true"></i>8 Free Forks Every Months</li>
+                    </ul>
+                    <a href="javascript:void(0);" class="custom-btn d-blue white-blue hvr-shutter-out-horizontal-blk btn btn-large btn-gradient btn-rounded w-100 dark-blue-background text-capitalize">Get Started Now</a>
+                </div>
+                <!--price item-->
+                <div class="price-item item text-left">
+                    <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4 blue">Basic</h4>
+                    <div class="price-tag d-flex align-items-center">
+                        <div class="price alt-font text-dark-gray">
+                            <h3 class="currency"><span class="sign">$</span>29</h3>
+                            <span class="month text-capitalize">MONTH</span>
+                        </div>
+                        <p class="price-text no-margin">It has survived not only five centu but also the leap electronic.</p>
+                    </div>
+                    <ul class="packages">
+                        <li><i class="fab fa-check" aria-hidden="true"></i>Full access</li>
+                        <li><i class="fab fa-check text-capitalize" aria-hidden="true"></i>Unlimited Bandwidth</li>
+                        <li><i class="fab fa-check text-capitalize" aria-hidden="true"></i>Powerful Admin Panel</li>
+                        <li><i class="fab fa-check text-capitalize" aria-hidden="true"></i>Email Accounts</li>
+                        <li><i class="fab fa-check text-capitalize" aria-hidden="true"></i>8 Free Forks Every Months</li>
+                    </ul>
+                    <a href="javascript:void(0);" class="custom-btn d-blue white-blue hvr-shutter-out-horizontal-blk btn btn-large btn-gradient btn-rounded w-100 dark-blue-background text-capitalize">Get Started Now</a>
+                </div>
+                <!--price item-->
+                <div class="price-item text-left">
+                    <h4 class="alt-font d-inline-block font-weight-500 mb-4">Popular</h4>
+                    <div class="price-tag d-flex align-items-center">
+                        <div class="price alt-font text-dark-gray">
+                            <h3 class="currency"><span class="sign">$</span>49</h3>
+                            <span class="month text-capitalize">MONTH</span>
+                        </div>
+                        <p class="price-text no-margin">It has survived not only five centu but also the leap electronic.</p>
+                    </div>
+                    <ul class="packages">
+                        <li><i class="fab fa-check" aria-hidden="true"></i>Full access</li>
+                        <li><i class="fab fa-check text-capitalize" aria-hidden="true"></i>Unlimited Bandwidth</li>
+                        <li><i class="fab fa-check text-capitalize" aria-hidden="true"></i>Powerful Admin Panel</li>
+                        <li><i class="fab fa-check text-capitalize" aria-hidden="true"></i>Email Accounts</li>
+                        <li><i class="fab fa-check text-capitalize" aria-hidden="true"></i>8 Free Forks Every Months</li>
+                    </ul>
+                    <a href="javascript:void(0);" class="custom-btn blue-white hvr-shutter-out-horizontal-blk btn btn-large btn-gradient btn-rounded w-100 blue-background text-capitalize">Get Started Now</a>
+                </div>
+                <!--price item-->
+                <div class="price-item text-left">
+                    <h4 class="alt-font gradient-text1 d-inline-block font-weight-500 mb-4 blue">Advance</h4>
+                    <div class="price-tag d-flex align-items-center">
+                        <div class="price alt-font text-dark-gray">
+                            <h3 class="currency"><span class="sign">$</span>99</h3>
+                            <span class="month text-capitalize">MONTH</span>
+                        </div>
+                        <p class="price-text no-margin">It has survived not only five centu but also the leap electronic.</p>
+                    </div>
+                    <ul class="packages">
+                        <li><i class="fab fa-check" aria-hidden="true"></i>Full access</li>
+                        <li><i class="fab fa-check text-capitalize" aria-hidden="true"></i>Unlimited Bandwidth</li>
+                        <li><i class="fab fa-check text-capitalize" aria-hidden="true"></i>Powerful Admin Panel</li>
+                        <li><i class="fab fa-check text-capitalize" aria-hidden="true"></i>Email Accounts</li>
+                        <li><i class="fab fa-check text-capitalize" aria-hidden="true"></i>8 Free Forks Every Months</li>
+                    </ul>
+                    <a href="javascript:void(0);" class="custom-btn grrenn-white hvr-shutter-out-horizontal-blk btn btn-large btn-gradient btn-rounded w-100 green-background text-capitalize">Get Started Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Pricing End Start-->
+
+
+
+<!-- our client -->
+<section class="our-client">
+    <h2 class="d-none" aria-hidden="true">slider</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 p-0">
+                <div class="owl-carousel partners-slider">
+                    <div class="item">
+                        <div class="logo-item"> <img alt="image" src="images/client-one.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/client-one.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"> <img alt="image" src="images/client-one.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/client-one.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"> <img alt="image" src="images/client-one.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/client-one.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"> <img alt="image" src="images/client-one.png"></div>
+                    </div>
+                    <div class="item">
+                        <div class="logo-item"><img alt="image" src="images/client-one.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- our client end -->
+
+
+
+<!--Footer Start-->
+<section class="text-center dark-blue-background">
+    <h2 class="d-none">hidden</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-social">
+                    <ul class="list-unstyled text-white">
+                        <li><a class="wow fadeInUp facebook-bg-hvr" href="javascript:void(0);"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a class="wow fadeInDown twitter-bg-hvr" href="javascript:void(0);"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a class="wow fadeInUp google-bg-hvr" href="javascript:void(0);"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li><a class="wow fadeInDown linkedin-bg-hvr" href="javascript:void(0);"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a class="wow fadeInUp instagram-bg-hvr" href="javascript:void(0);"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a class="wow fadeInDown mail-bg-hvr" href="javascript:void(0);"><i class="fab fa-envelope-o" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <p class="company-about fadeIn grey-text text-capitalize">© 2019 Bizwa. Made With Love By <a href="javascript:void(0);">Themesindustry</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Footer End-->
+
+
+<!-- Optional JavaScript -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/parallaxie.min.js"></script>
+<!--Appear JS-->
+<script src="js/jquery.appear.js"></script>
+<!--Jquery-countTo JS-->
+<script src="js/jquery-countTo.js"></script>
+<!--Parallaxie JS-->
+<script src="js/parallaxie.min.js"></script>
+<!--Fancy Box JS-->
+<script src="js/jquery.fancybox.min.js"></script>
+<!--Cube Portfolio JS-->
+<script src="js/jquery.cubeportfolio.min.js"></script>
+<!--owl carousel JS-->
+<script src="js/owl.carousel.min.js"></script>
+<!--Wow JS-->
+<script src="js/wow.min.js"></script>
+<!--Equil Height-->
+<script src="js/jquery.matchHeight-min.js"></script>
+
+
+<!-- REVOLUTION JS FILES -->
+<script src="revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
+<script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+<!-- map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCs4APPDpT3CRGCgk3Cmv9xBvEK5Lq3HGo"></script>
+<script src="js/maps.min.js"></script>
+<!-- custom script -->
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
