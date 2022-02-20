@@ -46,7 +46,7 @@ class Event extends CI_Controller {
         $config["base_url"] = base_url() . "event/index";
         $config["total_rows"] = $this->Model_event->get_total_event();
         $config['first_url'] = base_url() . 'event';
-        $config["per_page"] = 10;
+        $config["per_page"] = 32;
         $config["uri_segment"] = 3;
         $config['use_page_numbers'] = TRUE;
 
