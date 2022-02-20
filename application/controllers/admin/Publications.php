@@ -135,7 +135,7 @@ class Publications extends CI_Controller
 		    		$form_data = array(
 						'name'        => $_POST['name'],
 					    'content'     => $_POST['content'],
-					    'publication_type_id'  => $_POST['type']
+					    'publication_type_id'  => $_POST['type_id']
 		            );
 				}
 				else {
@@ -148,7 +148,7 @@ class Publications extends CI_Controller
 					'name'        => $_POST['name'],
 					'content'     => $_POST['content'],
 					'attachment'  => $final_name,
-					'publication_type_id'  => $_POST['type']
+					'publication_type_id'  => $_POST['type_id']
 	              );
 
 				}
@@ -169,7 +169,7 @@ class Publications extends CI_Controller
 		} else {
 
 			$data['pub_types'] = $this->Model_publications->get_types();
-			$data['publications'] = $this->Model_publications->getData($id);
+			$data['publications'] = $tot;
 			
 	       	$this->load->view('admin/view_header',$data);
 			$this->load->view('admin/view_publications_edit',$data);
@@ -192,7 +192,7 @@ class Publications extends CI_Controller
         }
 
         $this->Model_publications->delete($id);
-        $success = 'Publication/directory is deleted successfully';
+        $success = 'Publication is deleted successfully';
         $this->session->set_flashdata('success',$success);
         redirect(base_url().'admin/publications');
     }

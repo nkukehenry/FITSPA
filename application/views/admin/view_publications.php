@@ -58,17 +58,17 @@ if(!$this->session->userdata('id')) {
 										<?php echo date('d-m-Y',strtotime($row['publised_on'])); ?>
 									</td>
 									
+									<td><?php echo $row['type_name']; ?></td>
 									<td>
 										<a href="<?php echo base_url(); ?>public/uploads/<?php echo $row['attachment']; ?>" target="_blank" style="text-decoration: none;">
 											<?php echo $row['name']; ?>							
 										</a>
 									</td>
 
-									<td><?php echo $row['content']; ?></td>
-									<td><?php echo $row['type_name']; ?></td>										
+									<td><?php echo $row['content']; ?></td>										
 									<td>
-										<a href="<?php echo base_url(); ?>admin/publications/edit/<?php echo $row['id']; ?>" class="btn-primary btn-xs"><i class="fa fa-edit"></i></a>
-										<a href="<?php echo base_url(); ?>admin/publications/delete/<?php echo $row['id']; ?>" class="btn-danger btn-xs" onClick="return confirm('Are you sure?');"><i class="fa fa-trash"></i></a> 
+										<a href="<?php echo base_url(); ?>admin/publications/edit/<?php echo $row['ids']; ?>" class="btn-primary btn-xs"><i class="fa fa-edit"></i></a>
+										<a href="<?php echo base_url(); ?>admin/publications/delete/<?php echo $row['ids']; ?>" class="btn-danger btn-xs" onClick="return confirm('Are you sure?');"><i class="fa fa-trash"></i></a> 
 									</td>
 								</tr>
 								<?php

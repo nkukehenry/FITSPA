@@ -19,13 +19,13 @@ class Model_publications extends CI_Model
     }
 
     function update($id,$data) {
-        $this->db->where('id',$id);
+        $this->db->where('ids',$id);
         $this->db->update('publications',$data);
     }
 
     function delete($id)
     {
-        $this->db->where('id',$id);
+        $this->db->where('ids',$id);
         $this->db->delete('publications');
     }
 
@@ -38,7 +38,7 @@ class Model_publications extends CI_Model
     {
         return $this->db->select('publications.*,publication_types.id as type_id, publication_types.type_name')
                  ->join('publication_types','publication_types.id = publications.publication_type_id')
-                 ->where('publications.publication_type_id',$id)
+                 ->where('publications.ids',$id)
                  ->get('publications')
                  ->row_array();
     }

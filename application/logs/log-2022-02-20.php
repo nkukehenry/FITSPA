@@ -230,3 +230,36 @@ ERROR - 2022-02-20 06:35:15 --> 404 Page Not Found: Public/uploads
 ERROR - 2022-02-20 06:52:14 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\fitspa\application\controllers\Publications.php 46
 ERROR - 2022-02-20 07:07:18 --> 404 Page Not Found: Public/uploads
 ERROR - 2022-02-20 07:07:19 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:44 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:45 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:51 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:11:52 --> 404 Page Not Found: Public/uploads
+ERROR - 2022-02-20 07:15:25 --> Severity: error --> Exception: Too few arguments to function Publications::edit(), 0 passed in C:\xampp\htdocs\fitspa\system\core\CodeIgniter.php on line 532 and exactly 1 expected C:\xampp\htdocs\fitspa\application\controllers\admin\Publications.php 92
+ERROR - 2022-02-20 07:16:11 --> Severity: error --> Exception: Too few arguments to function Publications::edit(), 0 passed in C:\xampp\htdocs\fitspa\system\core\CodeIgniter.php on line 532 and exactly 1 expected C:\xampp\htdocs\fitspa\application\controllers\admin\Publications.php 92
+ERROR - 2022-02-20 07:16:17 --> Severity: error --> Exception: Too few arguments to function Publications::edit(), 0 passed in C:\xampp\htdocs\fitspa\system\core\CodeIgniter.php on line 532 and exactly 1 expected C:\xampp\htdocs\fitspa\application\controllers\admin\Publications.php 92
+ERROR - 2022-02-20 07:17:08 --> 404 Page Not Found: Public/admin
+ERROR - 2022-02-20 07:17:08 --> 404 Page Not Found: Public/admin
+ERROR - 2022-02-20 07:19:41 --> Severity: Notice --> Undefined index: type C:\xampp\htdocs\fitspa\application\controllers\admin\Publications.php 138
+ERROR - 2022-02-20 07:19:52 --> Severity: Notice --> Undefined index: type C:\xampp\htdocs\fitspa\application\controllers\admin\Publications.php 138
+ERROR - 2022-02-20 07:20:05 --> Severity: Notice --> Undefined index: type C:\xampp\htdocs\fitspa\application\controllers\admin\Publications.php 138
+ERROR - 2022-02-20 07:20:17 --> Severity: Notice --> Undefined index: type C:\xampp\htdocs\fitspa\application\controllers\admin\Publications.php 138
+ERROR - 2022-02-20 07:20:32 --> Severity: Notice --> Undefined index: type C:\xampp\htdocs\fitspa\application\controllers\admin\Publications.php 138
+ERROR - 2022-02-20 07:20:44 --> Severity: Notice --> Undefined index: type C:\xampp\htdocs\fitspa\application\controllers\admin\Publications.php 138
+ERROR - 2022-02-20 07:20:59 --> Severity: Notice --> Undefined index: type C:\xampp\htdocs\fitspa\application\controllers\admin\Publications.php 138
+ERROR - 2022-02-20 07:21:14 --> Severity: Notice --> Undefined index: type C:\xampp\htdocs\fitspa\application\controllers\admin\Publications.php 138
+ERROR - 2022-02-20 07:21:21 --> Severity: Notice --> Undefined index: type C:\xampp\htdocs\fitspa\application\controllers\admin\Publications.php 138
+ERROR - 2022-02-20 07:23:51 --> 404 Page Not Found: Public/uploads

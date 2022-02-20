@@ -32,9 +32,10 @@ if(!$this->session->userdata('id')) {
 				</div>
 				<?php
 			}
+
 			?>
 
-			<?php echo form_open_multipart(base_url().'admin/publications/edit/'.$publications['id'],array('class' => 'form-horizontal'));?>
+			<?php echo form_open_multipart(base_url().'admin/publications/edit/'.$publications['ids'],array('class' => 'form-horizontal'));?>
 				<div class="box box-info">
 					<div class="box-body">	
 
