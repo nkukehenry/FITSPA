@@ -38,7 +38,22 @@ if(!$this->session->userdata('id')) {
 
 			<?php echo form_open_multipart(base_url().'admin/publications/add',array('class' => 'form-horizontal')); ?>
 				<div class="box box-info">
-					<div class="box-body">						
+					<div class="box-body">
+
+						<div class="form-group">
+							<label for="" class="col-sm-2 control-label">Publication Type</label>
+							<div class="col-sm-8">
+								
+								<select name="type_id" class="form-control">
+									
+									<?php foreach($pub_types as $type): ?>
+										 <option value="<?=$type->id?>"><?=$type->type_name?></option>
+									<?php endforeach; ?>
+									
+								</select>
+							</div>
+						</div>
+
 						<div class="form-group">
 							<label for="" class="col-sm-2 control-label">File Name *</label>
 							<div class="col-sm-8">

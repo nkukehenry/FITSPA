@@ -19,9 +19,10 @@
 
         foreach($categories as $category):
         
-            $catEvents = array_filter($event_fetched, function($row) use($category){
+        $catEvents = array_filter($event_fetched, function($row) use($category){
                 return $row->category_id == $category->id;
             });
+
      if(count($catEvents)>0): ?>
     <div class="col-md-12 mt-2">
         <br>

@@ -5,9 +5,12 @@ class Model_publications extends CI_Model
 {
 
     function show() {
-        $sql = "SELECT * FROM publications ORDER BY publised_on DESC";
-        $query = $this->db->query($sql);
-        return $query->result_array();
+
+       return $this->db->select('publications.*,publication_types.id as type_id, publication_types.type_name')
+                 ->join('publication_types','publication_types.id = publications.publication_type_id')
+                 ->order_by('publised_on','desc')
+                 ->get('publications')
+                 ->result_array();
     }
 
     function add($data) {
@@ -28,16 +31,23 @@ class Model_publications extends CI_Model
 
     function getData($id)
     {
-        $sql = 'SELECT * FROM publications WHERE id=?';
-        $query = $this->db->query($sql,array($id));
-        return $query->first_row('array');
+        $this->publications_check($id);
     }
 
     function publications_check($id)
     {
-        $sql = 'SELECT * FROM publications WHERE id=?';
-        $query = $this->db->query($sql,array($id));
-        return $query->first_row('array');
+        return $this->db->select('publications.*,publication_types.id as type_id, publication_types.type_name')
+                 ->join('publication_types','publication_types.id = publications.publication_type_id')
+                 ->where('publications.publication_type_id',$id)
+                 ->get('publications')
+                 ->row_array();
     }
+
+    public function get_types(){
+
+        return $this->db->get('publication_types')->result();
+    }
+
+
     
 }

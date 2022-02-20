@@ -33,7 +33,7 @@ class Publications extends CI_Controller
 
 			$valid = 1;
 
-            $path = $_FILES['attachment']['name'];
+            $path     = $_FILES['attachment']['name'];
 		    $path_tmp = $_FILES['attachment']['tmp_name'];
 
 		    if($path!='') {
@@ -57,15 +57,17 @@ class Publications extends CI_Controller
 		    if($valid == 1) 
 		    {
 		        move_uploaded_file( $path_tmp, './public/uploads/directory/'.$final_name );
+
 		        $form_data = array(
 					'name'        => $_POST['name'],
 					'content'     => $_POST['content'],
-					'attachment'  => $final_name
-
+					'attachment'  => $final_name,
+					'publication_type_id'  => $_POST['type']
 	            );
+
 	            $this->Model_publications->add($form_data);
 
-		        $success = 'Publications/Directory is added successfully!';
+		        $success = 'Publications is added successfully!';
 		        $this->session->set_flashdata('success',$success);
 				redirect(base_url().'admin/publications');
 		    } 
@@ -77,6 +79,8 @@ class Publications extends CI_Controller
             
         } else {
             
+            $data['pub_types'] = $this->Model_publications->get_types();
+
             $this->load->view('admin/view_header',$data);
 			$this->load->view('admin/view_publications_add',$data);
 			$this->load->view('admin/view_footer');
@@ -130,9 +134,9 @@ class Publications extends CI_Controller
 		    	if($path == '') {
 		    		$form_data = array(
 						'name'        => $_POST['name'],
-					    'content'     => $_POST['content']
+					    'content'     => $_POST['content'],
+					    'publication_type_id'  => $_POST['type']
 		            );
-		            $this->Model_publications->update($id,$form_data);
 				}
 				else {
 					unlink('./public/uploads/'.$data['attachment']);
@@ -143,12 +147,16 @@ class Publications extends CI_Controller
 		        	$form_data = array(
 					'name'        => $_POST['name'],
 					'content'     => $_POST['content'],
-					'attachment'  => $final_name
-	            );
-	            $this->Model_publications->update($id,$form_data);
+					'attachment'  => $final_name,
+					'publication_type_id'  => $_POST['type']
+	              );
+
 				}
+
+
+	            $this->Model_publications->update($id,$form_data);
 				
-				$success = 'Publications/Directory is updated successfully';
+				$success = 'Publications is updated successfully';
 				$this->session->set_flashdata('success',$success);
 				redirect(base_url().'admin/publications');
 		    }
@@ -159,7 +167,10 @@ class Publications extends CI_Controller
 		    }
            
 		} else {
+
+			$data['pub_types'] = $this->Model_publications->get_types();
 			$data['publications'] = $this->Model_publications->getData($id);
+			
 	       	$this->load->view('admin/view_header',$data);
 			$this->load->view('admin/view_publications_edit',$data);
 			$this->load->view('admin/view_footer');

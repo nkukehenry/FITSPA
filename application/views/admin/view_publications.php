@@ -40,6 +40,7 @@ if(!$this->session->userdata('id')) {
 							<tr>
 								<th>#</th>
 								<th>Published</th>
+								<th>Type</th>
 								<th>Attachment</th>
 								<th>Description</th>
 								<th>Action</th>
@@ -63,7 +64,8 @@ if(!$this->session->userdata('id')) {
 										</a>
 									</td>
 
-									<td><?php echo $row['content']; ?></td>									
+									<td><?php echo $row['content']; ?></td>
+									<td><?php echo $row['type_name']; ?></td>										
 									<td>
 										<a href="<?php echo base_url(); ?>admin/publications/edit/<?php echo $row['id']; ?>" class="btn-primary btn-xs"><i class="fa fa-edit"></i></a>
 										<a href="<?php echo base_url(); ?>admin/publications/delete/<?php echo $row['id']; ?>" class="btn-danger btn-xs" onClick="return confirm('Are you sure?');"><i class="fa fa-trash"></i></a> 

@@ -84,12 +84,13 @@ if(!function_exists('events_categories')){
     }
 }
 
-if(!function_exists('events_by_category')){
 
-    function events_by_category($categoryId){
+
+if(!function_exists('publication_types')){
+
+    function publication_types(){
         $ci =& get_instance();
-        $ci->db->where('category_id',$categoryId);
-        return $ci->db->get('tbl_event')->result_array();
+        return $ci->db->get('publication_types')->result();
     }
 }
 
