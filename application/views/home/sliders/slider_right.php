@@ -12,7 +12,7 @@
      <div class="tp-caption   tp-resizeme"
           data-x="['right','right','center','center']" data-hoffset="['0','50','0','0']"
           data-y="['top','top','middle','middle']" data-voffset="['309','262','-106','-110']"
-          data-fontsize="['16','16','16','14']"
+          data-fontsize="['20','20','20','17']"
           data-width="none"
           data-height="none"
           data-whitespace="nowrap"
@@ -27,7 +27,7 @@
           data-paddingbottom="[0,0,0,0]"
           data-paddingleft="[0,0,0,0]"
 
-          style="z-index: 5; white-space: nowrap; font-size: 16px; line-height: 20px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;"><?php echo nl2br($slider['text_01']); ?>
+          style="z-index: 5; white-space: nowrap; font-size: 20px; line-height: 20px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;"><?php echo nl2br($slider['text_01']); ?>
       </div>
 
      <!-- LAYER NR. 2 -->
@@ -35,7 +35,7 @@
      <div class="tp-caption   tp-resizeme"
           data-x="['right','right','center','center']" data-hoffset="['0','50','0','0']"
           data-y="['top','top','top','top']" data-voffset="['357','309','404','266']"
-          data-fontsize="['50','40','20','14']"
+          data-fontsize="['50','40','20','17']"
           data-width="none"
           data-height="none"
           data-whitespace="nowrap"
@@ -58,7 +58,7 @@
      <?php } if(!empty($slider['text_03'])) { ?>
      <div class="tp-caption   tp-resizeme"
           data-x="['right','right','center','center']" data-hoffset="['0','50','0','0']"
-          data-y="['middle','middle','middle','middle']" data-voffset="['10','12','0','-30']"
+          data-y="['middle','middle','middle','middle']" data-voffset="['10','17','0','-30']"
           data-fontsize="['50','30','40','15']"
           data-width="none"
           data-height="none"
@@ -82,7 +82,7 @@
      <div class="tp-caption   tp-resizeme"
           data-x="['right','right','center','center']" data-hoffset="['0','50','1','-1']"
           data-y="['top','top','middle','middle']" data-voffset="['484','447','71','29']"
-          data-fontsize="['16','14','12','10']"
+          data-fontsize="['20','17','17','10']"
           data-lineheight="['22','22','22','18']"
           data-width="['601','530','601','450']"
           data-height="none"
@@ -98,7 +98,7 @@
           data-paddingbottom="[0,0,0,0]"
           data-paddingleft="[0,0,0,0]"
 
-          style="z-index: 8; min-width: 601px; max-width: 601px; white-space: normal; font-size: 16px; line-height: 22px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;"><?php echo nl2br($slider['text_04']); ?>
+          style="z-index: 8; min-width: 601px; max-width: 601px; white-space: normal; font-size: 20px; line-height: 22px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;"><?php echo nl2br($slider['text_04']); ?>
      </div>
 
      <!-- LAYER NR. 12 -->

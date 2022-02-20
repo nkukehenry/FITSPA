@@ -11,7 +11,7 @@
           id="slide-91-layer-1"
           data-x="['left','left','center','center']" data-hoffset="['0','50','0','0']"
           data-y="['top','top','middle','middle']" data-voffset="['309','262','-106','-110']"
-          data-fontsize="['16','16','16','14']"
+          data-fontsize="['20','20','20','17']"
           data-width="none"
           data-height="none"
           data-whitespace="nowrap"
@@ -26,7 +26,7 @@
           data-paddingbottom="[0,0,0,0]"
           data-paddingleft="[0,0,0,0]"
 
-          style="z-index: 5; white-space: nowrap; font-size: 16px; line-height: 20px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;">
+          style="z-index: 5; white-space: nowrap; font-size: 20px; line-height: 20px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;">
                <?php echo nl2br($slider['text_01']); ?>
      </div>
 
@@ -36,7 +36,7 @@
           id="slide-91-layer-2"
           data-x="['left','left','center','center']" data-hoffset="['0','50','0','0']"
           data-y="['top','top','top','top']" data-voffset="['357','309','404','266']"
-          data-fontsize="['18','18','18','14']"
+          data-fontsize="['18','18','18','17']"
           data-width="none"
           data-height="none"
           data-whitespace="nowrap"
@@ -61,7 +61,7 @@
           id="slide-91-layer-3"
           data-x="['left','left','center','center']" data-hoffset="['0','50','0','0']"
           data-y="['middle','middle','middle','middle']" data-voffset="['10','10','0','-30']"
-          data-fontsize="['50','30','20','16']"
+          data-fontsize="['50','30','20','20']"
           data-width="none"
           data-height="none"
           data-whitespace="nowrap"
@@ -85,7 +85,7 @@
           id="slide-91-layer-4"
           data-x="['left','left','center','center']" data-hoffset="['0','50','1','-1']"
           data-y="['top','top','middle','middle']" data-voffset="['484','447','71','29']"
-          data-fontsize="['16','16','16','14']"
+          data-fontsize="['20','20','20','17']"
           data-lineheight="['22','22','22','18']"
           data-width="['601','530','601','450']"
           data-height="none"
@@ -101,7 +101,7 @@
           data-paddingbottom="[0,0,0,0]"
           data-paddingleft="[0,0,0,0]"
 
-          style="z-index: 8; min-width: 601px; max-width: 601px; white-space: normal; font-size: 16px; line-height: 22px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;">
+          style="z-index: 8; min-width: 601px; max-width: 601px; white-space: normal; font-size: 20px; line-height: 22px; font-weight: 300; color: #ffffff; letter-spacing: 0px;font-family:Roboto;">
                <?php echo nl2br($slider['text_04']); ?>
      </div>
 
